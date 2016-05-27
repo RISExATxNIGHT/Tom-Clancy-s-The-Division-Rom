@@ -1,0 +1,21 @@
+These are scripts tested on Samsung galaxy s3 (im sure they will work on others fine) but test first:)
+some of these wont be on every phone but they need testin later I will add a confirmation in patch notes for these
+No Boot Animation
+debug.sf.nobootanimation=1
+I would turn off boot animation if you are using an Boost Phone because the animation is super long
+especially if you are runing an encrypted phone it cycles twice.
+
+View CPU info
+cat/proc/cpuinfo
+
+Touch response
+debug.perfomance.tuning=1
+video.accelerate.hw=1
+
+Minimum brightness for Screen
+ro.lcd_min_brightness=20
+I didnt need to mess around with the brightness but i actually wish it was brighter.
+if anyone has a script for inscreased max brightness i don't want to guess.
+(ro.lcd_max_brightness=XX maybe?)
+There are literally Forums from XDA with multiple guides on all BuildProp and Normal Scripts I changed
+Just look up your model of phone and the buildProp you want to go with that build and you will find it no problem
